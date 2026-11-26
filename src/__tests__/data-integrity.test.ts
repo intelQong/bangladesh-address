@@ -18,6 +18,7 @@ import { DistrictName } from "../types";
 import divisionData from "../json/bd-division.json";
 import districtData from "../json/bd-district.json";
 import thanaData from "../json/bd-thana.json";
+import postalData from "../json/bd-postal.json";
 
 describe("Data Integrity", () => {
   describe("Division counts", () => {
@@ -117,6 +118,32 @@ describe("Data Integrity", () => {
     it("isThana should return false for regular upazilas", () => {
       expect(isThana("Savar")).toBe(false);
       expect(isThana("Keraniganj")).toBe(false);
+    });
+  });
+
+  describe("Postal code data", () => {
+    it("every postcode should be a 4-digit string", () => {
+      expect(postalData).toHaveLength(1349);
+      postalData.forEach((postal) => {
+        expect(typeof postal.postcode).toBe("string");
+        expect(postal.postcode).toMatch(/^\d{4}$/);
+      });
+    });
+
+    it("should have unique postcodes", () => {
+      const postcodes = postalData.map((postal) => postal.postcode);
+      expect(new Set(postcodes).size).toBe(postcodes.length);
+    });
+
+    it("should have valid district and division references", () => {
+      const validDistricts = allDistricts();
+      const validDivisions = allDivision();
+
+      postalData.forEach((postal) => {
+        expect(validDistricts).toContain(postal.district);
+        expect(validDivisions).toContain(postal.division);
+        expect(postal.division).toBe(getDivisionOfDistrict(postal.district));
+      });
     });
   });
 

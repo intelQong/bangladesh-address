@@ -56,6 +56,7 @@ A plain-text summary of the whole API for AI coding assistants is in [llms.txt](
 - **64 Districts** - All districts
 - **495 Upazilas** - All upazilas (updated July 2021 with Eidgaon, Dasar, Madhyanagar)
 - **26 Metropolitan Thanas** - Police stations in Dhaka, Chattogram, Rajshahi, Khulna
+- **1,349 Postal Codes** - Post offices, postal thanas, districts and divisions
 
 ## Installation
 
@@ -332,6 +333,10 @@ The data can also be fetched directly, without installing anything:
 | Metropolitan thanas | `https://cdn.jsdelivr.net/npm/@bangladeshi/bangladesh-address/build/json/bd-thana.json` |
 
 Add a version after the package name (for example `bangladesh-address@2.2.0`) to pin the data to a release.
+
+## Data sources
+
+Postal codes, post-office names and postal thanas come from the [GeoNames postal code file for Bangladesh (`BD.zip`)](https://download.geonames.org/export/zip/BD.zip), published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The estimated coordinates in that file are not included. District and division spellings are mapped to the names used by this package.
 
 ## Contribution
 
