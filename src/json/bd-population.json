@@ -1,0 +1,578 @@
+[
+  {
+    "code": "BD10",
+    "level": "division",
+    "year": 2022,
+    "total": 8110723,
+    "female": 4243339,
+    "male": 3867384
+  },
+  {
+    "code": "BD20",
+    "level": "division",
+    "year": 2022,
+    "total": 32593285,
+    "female": 16951397,
+    "male": 15641888
+  },
+  {
+    "code": "BD30",
+    "level": "division",
+    "year": 2022,
+    "total": 47312914,
+    "female": 23170810,
+    "male": 24142104
+  },
+  {
+    "code": "BD40",
+    "level": "division",
+    "year": 2022,
+    "total": 16132492,
+    "female": 8305656,
+    "male": 7826836
+  },
+  {
+    "code": "BD45",
+    "level": "division",
+    "year": 2022,
+    "total": 11809762,
+    "female": 6126785,
+    "male": 5682977
+  },
+  {
+    "code": "BD50",
+    "level": "division",
+    "year": 2022,
+    "total": 20150829,
+    "female": 10341651,
+    "male": 9809178
+  },
+  {
+    "code": "BD55",
+    "level": "division",
+    "year": 2022,
+    "total": 17363512,
+    "female": 8940526,
+    "male": 8422986
+  },
+  {
+    "code": "BD60",
+    "level": "division",
+    "year": 2022,
+    "total": 12176958,
+    "female": 6249070,
+    "male": 5927888
+  },
+  {
+    "code": "BD4001",
+    "level": "district",
+    "year": 2022,
+    "total": 1338096,
+    "female": 686632,
+    "male": 651464
+  },
+  {
+    "code": "BD2003",
+    "level": "district",
+    "year": 2022,
+    "total": 497397,
+    "female": 240454,
+    "male": 256943
+  },
+  {
+    "code": "BD1004",
+    "level": "district",
+    "year": 2022,
+    "total": 898288,
+    "female": 472401,
+    "male": 425887
+  },
+  {
+    "code": "BD1006",
+    "level": "district",
+    "year": 2022,
+    "total": 2192962,
+    "female": 1150901,
+    "male": 1042061
+  },
+  {
+    "code": "BD1009",
+    "level": "district",
+    "year": 2022,
+    "total": 1772115,
+    "female": 911898,
+    "male": 860217
+  },
+  {
+    "code": "BD5010",
+    "level": "district",
+    "year": 2022,
+    "total": 3702387,
+    "female": 1895517,
+    "male": 1806870
+  },
+  {
+    "code": "BD2012",
+    "level": "district",
+    "year": 2022,
+    "total": 3261331,
+    "female": 1735028,
+    "male": 1526303
+  },
+  {
+    "code": "BD2013",
+    "level": "district",
+    "year": 2022,
+    "total": 2468479,
+    "female": 1334480,
+    "male": 1133999
+  },
+  {
+    "code": "BD5070",
+    "level": "district",
+    "year": 2022,
+    "total": 1836973,
+    "female": 956454,
+    "male": 880519
+  },
+  {
+    "code": "BD2015",
+    "level": "district",
+    "year": 2022,
+    "total": 8606592,
+    "female": 4324526,
+    "male": 4282066
+  },
+  {
+    "code": "BD4018",
+    "level": "district",
+    "year": 2022,
+    "total": 1216379,
+    "female": 625762,
+    "male": 590617
+  },
+  {
+    "code": "BD2019",
+    "level": "district",
+    "year": 2022,
+    "total": 6262743,
+    "female": 3345743,
+    "male": 2917000
+  },
+  {
+    "code": "BD2022",
+    "level": "district",
+    "year": 2022,
+    "total": 2890272,
+    "female": 1431768,
+    "male": 1458504
+  },
+  {
+    "code": "BD3026",
+    "level": "district",
+    "year": 2022,
+    "total": 18113283,
+    "female": 8318506,
+    "male": 9794777
+  },
+  {
+    "code": "BD5527",
+    "level": "district",
+    "year": 2022,
+    "total": 3255541,
+    "female": 1658216,
+    "male": 1597325
+  },
+  {
+    "code": "BD3029",
+    "level": "district",
+    "year": 2022,
+    "total": 2018158,
+    "female": 1052429,
+    "male": 965729
+  },
+  {
+    "code": "BD2030",
+    "level": "district",
+    "year": 2022,
+    "total": 1614966,
+    "female": 856967,
+    "male": 757999
+  },
+  {
+    "code": "BD5532",
+    "level": "district",
+    "year": 2022,
+    "total": 2545669,
+    "female": 1336663,
+    "male": 1209006
+  },
+  {
+    "code": "BD3033",
+    "level": "district",
+    "year": 2022,
+    "total": 6154811,
+    "female": 2934036,
+    "male": 3220775
+  },
+  {
+    "code": "BD3035",
+    "level": "district",
+    "year": 2022,
+    "total": 1123453,
+    "female": 586733,
+    "male": 536720
+  },
+  {
+    "code": "BD6036",
+    "level": "district",
+    "year": 2022,
+    "total": 2404043,
+    "female": 1256881,
+    "male": 1147162
+  },
+  {
+    "code": "BD4539",
+    "level": "district",
+    "year": 2022,
+    "total": 2395906,
+    "female": 1256882,
+    "male": 1139024
+  },
+  {
+    "code": "BD4041",
+    "level": "district",
+    "year": 2022,
+    "total": 2972217,
+    "female": 1521561,
+    "male": 1450656
+  },
+  {
+    "code": "BD1042",
+    "level": "district",
+    "year": 2022,
+    "total": 639323,
+    "female": 341741,
+    "male": 297582
+  },
+  {
+    "code": "BD4044",
+    "level": "district",
+    "year": 2022,
+    "total": 1910352,
+    "female": 981736,
+    "male": 928616
+  },
+  {
+    "code": "BD5038",
+    "level": "district",
+    "year": 2022,
+    "total": 947031,
+    "female": 485423,
+    "male": 461608
+  },
+  {
+    "code": "BD2046",
+    "level": "district",
+    "year": 2022,
+    "total": 697657,
+    "female": 348974,
+    "male": 348683
+  },
+  {
+    "code": "BD4047",
+    "level": "district",
+    "year": 2022,
+    "total": 2181770,
+    "female": 1107861,
+    "male": 1073909
+  },
+  {
+    "code": "BD3048",
+    "level": "district",
+    "year": 2022,
+    "total": 3150871,
+    "female": 1648845,
+    "male": 1502026
+  },
+  {
+    "code": "BD5549",
+    "level": "district",
+    "year": 2022,
+    "total": 2309661,
+    "female": 1217362,
+    "male": 1092299
+  },
+  {
+    "code": "BD4050",
+    "level": "district",
+    "year": 2022,
+    "total": 2099291,
+    "female": 1080815,
+    "male": 1018476
+  },
+  {
+    "code": "BD2051",
+    "level": "district",
+    "year": 2022,
+    "total": 1946592,
+    "female": 1040601,
+    "male": 905991
+  },
+  {
+    "code": "BD5552",
+    "level": "district",
+    "year": 2022,
+    "total": 1368552,
+    "female": 702472,
+    "male": 666080
+  },
+  {
+    "code": "BD3054",
+    "level": "district",
+    "year": 2022,
+    "total": 1127908,
+    "female": 587900,
+    "male": 540008
+  },
+  {
+    "code": "BD4055",
+    "level": "district",
+    "year": 2022,
+    "total": 983429,
+    "female": 512689,
+    "male": 470740
+  },
+  {
+    "code": "BD3056",
+    "level": "district",
+    "year": 2022,
+    "total": 1463813,
+    "female": 776478,
+    "male": 687335
+  },
+  {
+    "code": "BD4057",
+    "level": "district",
+    "year": 2022,
+    "total": 696968,
+    "female": 362691,
+    "male": 334277
+  },
+  {
+    "code": "BD6058",
+    "level": "district",
+    "year": 2022,
+    "total": 2217984,
+    "female": 1153594,
+    "male": 1064390
+  },
+  {
+    "code": "BD3059",
+    "level": "district",
+    "year": 2022,
+    "total": 1560983,
+    "female": 800679,
+    "male": 760304
+  },
+  {
+    "code": "BD4561",
+    "level": "district",
+    "year": 2022,
+    "total": 5628978,
+    "female": 2913595,
+    "male": 2715383
+  },
+  {
+    "code": "BD5064",
+    "level": "district",
+    "year": 2022,
+    "total": 2711029,
+    "female": 1396389,
+    "male": 1314640
+  },
+  {
+    "code": "BD4065",
+    "level": "district",
+    "year": 2022,
+    "total": 710145,
+    "female": 374398,
+    "male": 335747
+  },
+  {
+    "code": "BD3067",
+    "level": "district",
+    "year": 2022,
+    "total": 3968554,
+    "female": 1938857,
+    "male": 2029697
+  },
+  {
+    "code": "BD3068",
+    "level": "district",
+    "year": 2022,
+    "total": 2525087,
+    "female": 1304990,
+    "male": 1220097
+  },
+  {
+    "code": "BD5069",
+    "level": "district",
+    "year": 2022,
+    "total": 1840322,
+    "female": 946157,
+    "male": 894165
+  },
+  {
+    "code": "BD4572",
+    "level": "district",
+    "year": 2022,
+    "total": 2405452,
+    "female": 1242648,
+    "male": 1162804
+  },
+  {
+    "code": "BD5573",
+    "level": "district",
+    "year": 2022,
+    "total": 2076058,
+    "female": 1057235,
+    "male": 1018823
+  },
+  {
+    "code": "BD2075",
+    "level": "district",
+    "year": 2022,
+    "total": 3665008,
+    "female": 1962015,
+    "male": 1702993
+  },
+  {
+    "code": "BD5076",
+    "level": "district",
+    "year": 2022,
+    "total": 2832687,
+    "female": 1452545,
+    "male": 1380142
+  },
+  {
+    "code": "BD5577",
+    "level": "district",
+    "year": 2022,
+    "total": 1127967,
+    "female": 574806,
+    "male": 553161
+  },
+  {
+    "code": "BD1078",
+    "level": "district",
+    "year": 2022,
+    "total": 1548309,
+    "female": 811884,
+    "male": 736425
+  },
+  {
+    "code": "BD1079",
+    "level": "district",
+    "year": 2022,
+    "total": 1059726,
+    "female": 554514,
+    "male": 505212
+  },
+  {
+    "code": "BD3082",
+    "level": "district",
+    "year": 2022,
+    "total": 1113458,
+    "female": 578250,
+    "male": 535208
+  },
+  {
+    "code": "BD5081",
+    "level": "district",
+    "year": 2022,
+    "total": 2837737,
+    "female": 1445651,
+    "male": 1392086
+  },
+  {
+    "code": "BD2084",
+    "level": "district",
+    "year": 2022,
+    "total": 682248,
+    "female": 330841,
+    "male": 351407
+  },
+  {
+    "code": "BD5585",
+    "level": "district",
+    "year": 2022,
+    "total": 3147367,
+    "female": 1614582,
+    "male": 1532785
+  },
+  {
+    "code": "BD4087",
+    "level": "district",
+    "year": 2022,
+    "total": 2023845,
+    "female": 1051511,
+    "male": 972334
+  },
+  {
+    "code": "BD3086",
+    "level": "district",
+    "year": 2022,
+    "total": 1188172,
+    "female": 631027,
+    "male": 557145
+  },
+  {
+    "code": "BD4589",
+    "level": "district",
+    "year": 2022,
+    "total": 1379426,
+    "female": 713660,
+    "male": 665766
+  },
+  {
+    "code": "BD5088",
+    "level": "district",
+    "year": 2022,
+    "total": 3442663,
+    "female": 1763515,
+    "male": 1679148
+  },
+  {
+    "code": "BD6090",
+    "level": "district",
+    "year": 2022,
+    "total": 2945083,
+    "female": 1507469,
+    "male": 1437614
+  },
+  {
+    "code": "BD6091",
+    "level": "district",
+    "year": 2022,
+    "total": 4609848,
+    "female": 2331126,
+    "male": 2278722
+  },
+  {
+    "code": "BD3093",
+    "level": "district",
+    "year": 2022,
+    "total": 3804363,
+    "female": 2012080,
+    "male": 1792283
+  },
+  {
+    "code": "BD5594",
+    "level": "district",
+    "year": 2022,
+    "total": 1532697,
+    "female": 779190,
+    "male": 753507
+  }
+]

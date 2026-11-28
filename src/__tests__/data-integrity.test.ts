@@ -21,6 +21,7 @@ import upazilaData from "../json/bd-upazila.json";
 import thanaData from "../json/bd-thana.json";
 import cityCorporationData from "../json/bd-city-corporation.json";
 import geoData from "../json/bd-geo.json";
+import populationData from "../json/bd-population.json";
 
 describe("Data Integrity", () => {
   describe("Division counts", () => {
@@ -418,6 +419,65 @@ describe("Data Integrity", () => {
       const cityCodes = new Set(cityCorporationData.map((c) => c.bbsCode));
       withGeo(geoData.upazilas).forEach((u) => {
         expect(cityCodes.has(u.bbsCode)).toBe(false);
+      });
+    });
+  });
+
+  describe("2022 population data", () => {
+    const divisions = populationData.filter((row) => row.level === "division");
+    const districts = populationData.filter((row) => row.level === "district");
+
+    it("should cover every division and district code in bd-geo.json in order", () => {
+      expect(populationData).toHaveLength(72);
+      expect(divisions).toHaveLength(8);
+      expect(districts).toHaveLength(64);
+
+      expect(divisions.map((row) => row.code)).toEqual(
+        geoData.divisions.map((row) => row.bbsCode)
+      );
+      expect(districts.map((row) => row.code)).toEqual(
+        geoData.districts.map((row) => row.bbsCode)
+      );
+      expect(populationData.slice(0, 8)).toEqual(divisions);
+      expect(populationData.slice(8)).toEqual(districts);
+    });
+
+    it("should use the 2022 COD-PS schema with integer values", () => {
+      const codes = populationData.map((row) => row.code);
+      expect(new Set(codes).size).toBe(codes.length);
+
+      populationData.forEach((row) => {
+        expect(Object.keys(row)).toEqual([
+          "code",
+          "level",
+          "year",
+          "total",
+          "female",
+          "male",
+        ]);
+        expect(row.year).toBe(2022);
+        expect(["division", "district"]).toContain(row.level);
+        [row.total, row.female, row.male].forEach((value) => {
+          expect(Number.isInteger(value)).toBe(true);
+          expect(value).toBeGreaterThanOrEqual(0);
+        });
+        expect(row.total).toBe(row.female + row.male);
+      });
+    });
+
+    it("should sum district totals to their division total", () => {
+      const totals = new Map(divisions.map((row) => [row.code, row.total]));
+      const sums = new Map<string, number>();
+
+      districts.forEach((row) => {
+        const parent = row.code.slice(0, 4);
+        expect(totals.has(parent)).toBe(true);
+        sums.set(parent, (sums.get(parent) ?? 0) + row.total);
+      });
+
+      expect([...sums.keys()].sort()).toEqual([...totals.keys()].sort());
+      totals.forEach((total, code) => {
+        expect(sums.get(code)).toBe(total);
       });
     });
   });

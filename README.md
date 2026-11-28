@@ -374,6 +374,8 @@ Add a version after the package name (for example `bangladesh-address@2.2.0`) to
 
 City corporation names and BBS codes, plus the division, district and upazila geocodes and centre coordinates in `bd-geo.json`, come from [Bangladesh - Subnational Administrative Boundaries (COD-AB)](https://data.humdata.org/dataset/cod-ab-bgd) on the Humanitarian Data Exchange. The data is published by UN OCHA from Bangladesh Bureau of Statistics (BBS) sources and licensed under [CC BY-IGO](https://creativecommons.org/licenses/by/3.0/igo/legalcode). Coordinates are rounded to five decimal places.
 
+Population figures in `bd-population.json` come from [Bangladesh - Subnational Population Statistics (COD-PS)](https://data.humdata.org/dataset/cod-ps-bgd) on the Humanitarian Data Exchange, published by UNFPA and the US Census Bureau and licensed under [CC BY-IGO](https://creativecommons.org/licenses/by/3.0/igo/legalcode). Reference year: 2022. These are UN population statistics, not BBS census tables.
+
 ## Contribution
 
 If you want to contribute please follow the guideline. [Contribution](https://github.com/rajuAhmed1705/bangladesh-address/blob/master/CONTRIBUTING.md)
